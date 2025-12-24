@@ -1,0 +1,62 @@
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: linear-gradient(180deg,#1e1b4b,#312e81);
+  color: white;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background: rgba(255,255,255,0.1);
+}
+.nav a {
+  margin-left: 12px;
+  color: white;
+  text-decoration: none;
+}
+section {
+  padding: 80px 24px;
+  text-align: center;
+}
+.btn {
+  margin-top: 16px;
+  padding: 12px 22px;
+  background: #7c3aed;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.sparkle {
+  width: 140px;
+  height: 140px;
+  margin: 0 auto 24px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #fde68a, transparent);
+}
+input, textarea {
+  width: 100%;
+  max-width: 520px;
+  margin: 8px auto;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+}
+.review-card {
+  margin: 16px auto;
+  max-width: 520px;
+  padding: 16px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 12px;
+}
+.footer {
+  padding: 24px;
+  text-align: center;
+  opacity: 0.85;
+}
+.success {
+  margin-top: 12px;
+  color: #a7f3d0;
+}
